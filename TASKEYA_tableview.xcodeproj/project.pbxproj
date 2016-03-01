@@ -14,6 +14,15 @@
 		631D5A1F1C7AE7D400181E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A1D1C7AE7D400181E00 /* LaunchScreen.storyboard */; };
 		631D5A2A1C7AE7D400181E00 /* TASKEYA_tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5A291C7AE7D400181E00 /* TASKEYA_tableviewTests.swift */; };
 		631D5A351C7AE7D400181E00 /* TASKEYA_tableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5A341C7AE7D400181E00 /* TASKEYA_tableviewUITests.swift */; };
+		631D5A491C7AFEF700181E00 /* c05.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A421C7AFEF700181E00 /* c05.png */; };
+		631D5A4A1C7AFEF700181E00 /* c06.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A431C7AFEF700181E00 /* c06.png */; };
+		631D5A4B1C7AFEF700181E00 /* c01.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A441C7AFEF700181E00 /* c01.png */; };
+		631D5A4C1C7AFEF700181E00 /* c02.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A451C7AFEF700181E00 /* c02.png */; };
+		631D5A4D1C7AFEF700181E00 /* c03.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A461C7AFEF700181E00 /* c03.png */; };
+		631D5A4E1C7AFEF700181E00 /* c07.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A471C7AFEF700181E00 /* c07.png */; };
+		631D5A4F1C7AFEF700181E00 /* c04.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D5A481C7AFEF700181E00 /* c04.png */; };
+		631D5A511C7B002C00181E00 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5A501C7B002C00181E00 /* ColorManager.swift */; };
+		631D5A531C7B045800181E00 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5A521C7B045800181E00 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		631D5A301C7AE7D400181E00 /* TASKEYA_tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TASKEYA_tableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631D5A341C7AE7D400181E00 /* TASKEYA_tableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TASKEYA_tableviewUITests.swift; sourceTree = "<group>"; };
 		631D5A361C7AE7D400181E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631D5A421C7AFEF700181E00 /* c05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c05.png; sourceTree = "<group>"; };
+		631D5A431C7AFEF700181E00 /* c06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c06.png; sourceTree = "<group>"; };
+		631D5A441C7AFEF700181E00 /* c01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c01.png; sourceTree = "<group>"; };
+		631D5A451C7AFEF700181E00 /* c02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c02.png; sourceTree = "<group>"; };
+		631D5A461C7AFEF700181E00 /* c03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c03.png; sourceTree = "<group>"; };
+		631D5A471C7AFEF700181E00 /* c07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c07.png; sourceTree = "<group>"; };
+		631D5A481C7AFEF700181E00 /* c04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c04.png; sourceTree = "<group>"; };
+		631D5A501C7B002C00181E00 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		631D5A521C7B045800181E00 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,21 @@
 		631D5A131C7AE7D400181E00 /* TASKEYA_tableview */ = {
 			isa = PBXGroup;
 			children = (
+				631D5A441C7AFEF700181E00 /* c01.png */,
+				631D5A451C7AFEF700181E00 /* c02.png */,
+				631D5A461C7AFEF700181E00 /* c03.png */,
+				631D5A481C7AFEF700181E00 /* c04.png */,
+				631D5A421C7AFEF700181E00 /* c05.png */,
+				631D5A431C7AFEF700181E00 /* c06.png */,
+				631D5A471C7AFEF700181E00 /* c07.png */,
 				631D5A141C7AE7D400181E00 /* AppDelegate.swift */,
 				631D5A161C7AE7D400181E00 /* ViewController.swift */,
+				631D5A521C7B045800181E00 /* DetailViewController.swift */,
 				631D5A181C7AE7D400181E00 /* Main.storyboard */,
 				631D5A1B1C7AE7D400181E00 /* Assets.xcassets */,
 				631D5A1D1C7AE7D400181E00 /* LaunchScreen.storyboard */,
 				631D5A201C7AE7D400181E00 /* Info.plist */,
+				631D5A501C7B002C00181E00 /* ColorManager.swift */,
 			);
 			path = TASKEYA_tableview;
 			sourceTree = "<group>";
@@ -232,8 +259,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631D5A4E1C7AFEF700181E00 /* c07.png in Resources */,
+				631D5A4D1C7AFEF700181E00 /* c03.png in Resources */,
+				631D5A4B1C7AFEF700181E00 /* c01.png in Resources */,
+				631D5A4C1C7AFEF700181E00 /* c02.png in Resources */,
+				631D5A4A1C7AFEF700181E00 /* c06.png in Resources */,
 				631D5A1F1C7AE7D400181E00 /* LaunchScreen.storyboard in Resources */,
 				631D5A1C1C7AE7D400181E00 /* Assets.xcassets in Resources */,
+				631D5A4F1C7AFEF700181E00 /* c04.png in Resources */,
+				631D5A491C7AFEF700181E00 /* c05.png in Resources */,
 				631D5A1A1C7AE7D400181E00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631D5A511C7B002C00181E00 /* ColorManager.swift in Sources */,
 				631D5A171C7AE7D400181E00 /* ViewController.swift in Sources */,
 				631D5A151C7AE7D400181E00 /* AppDelegate.swift in Sources */,
+				631D5A531C7B045800181E00 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TASKEYA_tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.TASKEYA-tableview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TASKEYA_tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.TASKEYA-tableview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
